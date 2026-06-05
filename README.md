@@ -4,7 +4,7 @@ Bu proje, üniversite "Network Programming" dersi için tasarlanmış, **asenkro
 
 ## Proje Hakkında
 Projenin amacı, Python'un `asyncio` kütüphanesi ve `FastAPI` framework'ü kullanılarak asenkron I/O işlemlerinin senkron işlemlere göre avantajlarını kanıtlamaktır.
-Proje, sahte bir Hava Durumu Toplayıcı (Weather Aggregator) ve Loglama servisi olarak çalışır.
+Proje, Bir Hava Durumu Toplayıcı (Weather Aggregator) ve Loglama servisi olarak çalışır.
 
 ### Asenkron Mimarinin Bu Projedeki Avantajı
 Senkron (bloklayan) bir mimaride, üç farklı dış API'den (sırasıyla 1.5 sn, 2.0 sn, 1.0 sn gecikmeli) veri çekmek istediğinizde toplam bekleme süreniz **4.5 saniye** olacaktır. Çünkü her ağ isteği sırayla yapılır ve biri bitmeden diğeri başlamaz.

@@ -74,6 +74,8 @@ async def get_aggregated_weather(city: str):
     end_time = time.time()
     total_time = round(end_time - start_time, 2)
     
+    print(f"[SUNUCU BİLGİSİ] /weather/{city} isteği {total_time} saniyede tamamlandı!")
+    
     return {
         "city": city,
         "results": results,
